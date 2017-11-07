@@ -13,6 +13,7 @@
 		9150C3F41FB18A5D006DD3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9150C3F31FB18A5D006DD3A1 /* Assets.xcassets */; };
 		9150C3F71FB18A5D006DD3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9150C3F51FB18A5D006DD3A1 /* LaunchScreen.storyboard */; };
 		9150C3FA1FB18A5D006DD3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9150C3F91FB18A5D006DD3A1 /* main.m */; };
+		9150C42F1FB18D60006DD3A1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9150C42E1FB18D60006DD3A1 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9150C3F61FB18A5D006DD3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9150C3F81FB18A5D006DD3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9150C3F91FB18A5D006DD3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9150C42D1FB18D60006DD3A1 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		9150C42E1FB18D60006DD3A1 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		9150C3E91FB18A5C006DD3A1 /* demo6 */ = {
 			isa = PBXGroup;
 			children = (
+				9150C42C1FB18D60006DD3A1 /* class */,
 				9150C3EA1FB18A5C006DD3A1 /* AppDelegate.h */,
 				9150C3EB1FB18A5C006DD3A1 /* AppDelegate.m */,
 				9150C3ED1FB18A5C006DD3A1 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				9150C3F91FB18A5D006DD3A1 /* main.m */,
 			);
 			path = demo6;
+			sourceTree = "<group>";
+		};
+		9150C42C1FB18D60006DD3A1 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				9150C42D1FB18D60006DD3A1 /* test.h */,
+				9150C42E1FB18D60006DD3A1 /* test.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9150C3EF1FB18A5C006DD3A1 /* ViewController.m in Sources */,
+				9150C42F1FB18D60006DD3A1 /* test.m in Sources */,
 				9150C3FA1FB18A5D006DD3A1 /* main.m in Sources */,
 				9150C3EC1FB18A5C006DD3A1 /* AppDelegate.m in Sources */,
 			);
